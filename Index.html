@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo rulas.jpg" type="image/x-icon">
+    <title>Luxury Fashion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 60px;
+        }
+
+        header {
+            background-color: #9d815a;
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
+            padding: 10px 20px;
+            position: relative;
+            text-align: center;
+        }
+
+        header img {
+            width: 100px;
+            margin-right: 20px;
+        }
+
+        h1 {
+            flex-grow: 1;
+            font-size: 60px;
+            text-align: left;
+            margin: 0;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .category {
+            text-align: center;
+            width: 18%;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .category img {
+            width: 100%;
+            height: 250px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .category img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .category h2 {
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        .category a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #a61616;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .category a:hover {
+            background-color: #ca6c6c;
+        }
+
+        footer {
+            background-color: #52412b;
+            color: white;
+            padding: 15px 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+        }
+
+        .footer-content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            max-width: 1200px; 
+            width: 100%;
+            justify-content: center; 
+        }
+
+        .footer-content p {
+            margin: 0; 
+        }
+
+        .revista-link {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #9d815a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .revista-link:hover {
+            background-color: #7a6846;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo rulas.jpg" alt="Logo Tienda">
+    <h1>Luxury Fashion</h1>
+</header>
+
+<div class="main-content">
+    <div class="category">
+        <img src="hombres.jpeg" alt="Ropa Hombre">
+        <h2>Hombre</h2>
+        <a href="pagina h.html">Ver</a>
+    </div>
+    <div class="category">
+        <img src="mujerees 2.jpg" alt="Ropa Mujer">
+        <h2>Mujer</h2>
+        <a href="pagina m.html">Ver</a>
+    </div>
+    <div class="category">
+        <img src="niñas.jpg" alt="Ropa Niña">
+        <h2>Niña</h2>
+        <a href="pagina niña.html">Ver</a>
+    </div>
+    <div class="category">
+        <img src="niños.webp" alt="Ropa Niño">
+        <h2>Niño</h2>
+        <a href="pagina niño.html">Ver</a>
+    </div>
+    <div class="category">
+        <img src="juvenil.jpg" alt="Ropa Juvenil">
+        <h2>Juvenil</h2>
+        <a href="juvenil.html">Ver</a>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <p>Pagina Web De Moda Y Vestimenta De Raul Ortiz Manzanarez.</p>
+        <a href="revista.html" class="revista-link">Revista</a>
+    </div>
+</footer>
+
+</body>
+</html>
